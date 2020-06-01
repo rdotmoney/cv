@@ -1,149 +1,149 @@
-body {
-  color: #40514E;
-  margin: 0;
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+/*~~~~~~~~~~~~~~~~~~~~~~Fonts~~~~~~~~~~~~~~~~~
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+#title {
+  background-color: #ff4c68;
+}
 
+.container-fluid {
+  padding: 3% 15%;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
-  line-height: 2;
-  font-family: 'Sacramento', cursive;
-  font-size: 5.625rem;
-  color: #66BFBF;
-}
-
-p {
-  font-family: 'Merriweather', serif;
-  line-height: 2;
-}
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  color: #66BFBF;
-  padding-bottom: 10px;
-
-}
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
-  font-weight: bold;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 6px;
-  width: 5%;
-  margin: 100px auto;
-}
-
-a {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-  text-decoration: none;
-}
-a:hover {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
   color: white;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~ Class Styles ~~~~~~~~~~~~~~~~~~~~*/
-.top-container {
-  background-color: #e3fdfd;
-  position: relative;
-  padding-top: 100px;
+h2 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  top: 300px;
+p {
+  font-family: "Montserrat";
+  color: #8F8F8F;
+  font-size: 0.9rem;
 }
 
-.middle-container {
-margin: 100px 0;
-}
-.profile-pic {
- width: 250px; height: 250px;
- border-radius: 50%;
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.intro{
-width: 50%;
-margin: auto;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+  align-content: center;
 }
 
-.profile {
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+font-size: 1.2rem;
+font-family: "Montserrat";
+font-weight: lighter;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 80%;
+  border-radius: 20%
+}
+
+/* Features  */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
   width: 50%;
-  margin: 50px auto 50px auto;
-  line-height: 2;
+  border-radius: 20%;
+  margin: 20px;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.avatar {
-  width: 25%; height: 25%;
-  border-radius: 50%;
-  float: left;
-  margin-right: 30px;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.swift {
-  width: 25%; height: 25%;
-  border-radius: 50%;
-  float: right;
-  margin-left: 30px;
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #ff4c68;
 }
 
-.bottom-container {
-  background-color: #71c9ce;
-  padding: 50px 0 50px;
+.pricing-column {
+  padding: 3% 2%;
+}
+.couplesimg {
+  width: 80%;
+  border-radius: 20%;
+  padding-bottom: 10px;
 }
 
-.contact-me-message {
-  width: 40%;
-  margin: 40px auto 60px;
+.container
+{padding-top: 10px;
 }
-.btn {
-	background-color:#71c9ce;
-	border-radius:28px;
-	border:1px solid white;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:'Montserrat', sans-serif;
-	font-size:20px;
-	padding:16px 31px;
-	text-decoration:none;
-}
-.btn:hover {
-	background-color:#40514E;
-}
-.btn:active {
-	position:relative;
-	top:1px;
-}
-.footer-link {
-  margin: 10px 20px;
-}
-.copyright {
-  color: #11999E;
-  font-size: 0.75rem;
-  padding: 20px 0;
+/* Footer Section */
+
+#footer {
+  text-align: center;
+  padding-top: 10px;
 }
